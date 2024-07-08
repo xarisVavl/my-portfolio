@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+nav ul {
+  color:black;
+}
+
+h1 {
+  font-size:10vw;
+}
+
+/* .main-content {
+  border: 1px solid black;
+} */
