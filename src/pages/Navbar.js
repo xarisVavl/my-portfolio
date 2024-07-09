@@ -40,7 +40,7 @@ else {
 <ul className="nav nav-underline nav-fill align-items-center">
 
   <li className="nav-item">
-    <Link to="/" className="nav-link ">Home</Link>
+    <Link to="/myportfolio" className="nav-link ">Home</Link>
   </li>
   <li className="nav-item">
   <Link to="/portfolio" className="nav-link">Portfolio</Link>
