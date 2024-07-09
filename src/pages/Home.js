@@ -1,24 +1,65 @@
+import {reactIcon,jsIcon,cssIcon,htmlIcon,phpIcon,bootStrapIcon,mySqlIcon,gitHubIcon,jQueryIcon,cvLink} 
+from "../data/data";
+
+
 const Home = () => {
-  return ( 
+
   
 
-<div className="main-content container p-4 ">
+  return ( 
+
+<div className="wrapper d-flex justify-content-center " >
+<div className="main-content d-flex flex-column p-4 m-3 ">
   
-  <div className="about-me border row">
-    <h1 >About me</h1>
+  <div className="about-me  ">
+    <h1 >About me.</h1>
     <p>I'm a web developer from Kozani, Greece, with a passion for creating beautiful, functional websites. My background in Electrical and Computer Engineering gives me a solid technical foundation and a knack for problem-solving i also love learning about new technologies and improving my skills day by day.</p>
 
   </div> 
 
-  <div className="row  border">
-<div className="col  border">Contact section here</div>
+  <div className="contact  d-flex flex-fill flex-wrap justify-content-start ">
+    <div className="  flex-grow-1 p">
+      <h6>Contact </h6>
+      <p className="social-paragraph">You can find me on <a href="https://linkedin.com/in/charis-vavliaras-7baa56315" target="_blank" >Linkedin</a> or by 
+      <a href="mailto:xarisvavliaras@icloud.com" target="_blank"> email</a> </p>
+      <h6>Social links</h6>
+      
+      <ul className="list-group mb-4">
+      
+        <li><a href="https://github.com/xarisVavl" target="blank"> Github</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100008211315378 " target="_blank"> Facebook</a></li>
+      </ul>
+    </div>
 
-<div className="col  border">Stack technnologies here</div>
+<div className="  flex-grow-1">
+  <div className="d-flex  align-items-center mb-4 gap-4">
+    <div className="expertise  p-1 rounded">
+      <div  className="fs-3">Stack technologies</div>
+  
+    </div>
+    <a href={cvLink} target="_blank" className="resume-link fs-5">Open resume</a>
+  </div>
+
+  <div className="images-container  container ">
+    <img src={htmlIcon} alt="" />
+    <img src={jsIcon} alt="" />
+    <img src={cssIcon} alt="" />
+    <img src={phpIcon} alt="" />
+    <img src={bootStrapIcon} alt="" />
+    <img src={mySqlIcon} alt="" />
+    <img src={gitHubIcon} alt="" />
+    <img src={reactIcon} alt="" />
+    <img src={jQueryIcon} alt="" />
+  </div>
+
+
+</div>
   </div>
 
   
 </div>
-  
+</div>
+
    );
 }
  
