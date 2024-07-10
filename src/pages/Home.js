@@ -37,7 +37,7 @@ const Home = () => {
 <div className="flex-grow-1 ">
   <div className="d-flex  align-items-center mb-5 mt-5 gap-4 ">
     <div className="expertise  p-1 rounded">
-      <div  className="fs-3">Stack technologies</div>
+      <div  className="fs-3">Skills</div>
   
     </div>
     <a href={cvLink} target="_blank" className="resume-link fs-5">Open resume</a>
