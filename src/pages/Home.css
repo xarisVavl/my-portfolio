@@ -9,13 +9,18 @@ nav ul {
   color:black;
 }
 
-h1 {
-  font-size:9vw;
+.header {
+  font-size:150px;
+  position:absolute;
+  top: -18%; 
+  left: 50px; 
+  z-index: 10; 
 }
 
 .main-content {
   max-width: 1200px;
   background-color: var(--bs-tertiary-bg);
+  margin-top: 120px;
 
 }
 .contact div{
@@ -79,4 +84,12 @@ justify-content: center;
 
 .footer{
   color: var(--bs-tertiary-color);
+}
+
+@media (max-width: 700px) {
+
+  .header {
+    font-size:70px;
+    top: -10%; 
+  }
 }

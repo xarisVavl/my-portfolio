@@ -9,11 +9,12 @@ const Home = () => {
 
   return ( 
 
-<div className="wrapper d-flex  align-items-center flex-column " >
-<div className="main-content d-flex flex-column p-5  ">
-  
+<div className="wrapper d-flex  align-items-center flex-column m-4" >
+
+<div className="main-content d-flex flex-column p-5  position-relative ">
+
   <div className="about-me  mb-5 ">
-    <h1 >About me.</h1>
+  <h1  className="header ">About me.</h1>
     <p className="fs-5">I'm a web developer from Kozani, Greece, with a passion for creating beautiful, functional websites. My background in Electrical and Computer Engineering gives me a solid technical foundation and a knack for problem-solving i also love learning about new technologies and improving my skills day by day.</p>
 
   </div> 
