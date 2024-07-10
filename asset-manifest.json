@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.ba174019.css",
-    "main.js": "/myportfolio/static/js/main.af952736.js",
+    "main.css": "/myportfolio/static/css/main.554aace3.css",
+    "main.js": "/myportfolio/static/js/main.a04b6025.js",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
     "static/media/VAVLIARAS-CHARISIOS-CV.pdf": "/myportfolio/static/media/VAVLIARAS-CHARISIOS-CV.fada3d85ae7da926f339.pdf",
@@ -21,11 +21,11 @@
     "static/media/sun-svgrepo-com.svg": "/myportfolio/static/media/sun-svgrepo-com.96ea1215f57a771b3e9beaf873a71bf7.svg",
     "static/media/eye-svgrepo-com.svg": "/myportfolio/static/media/eye-svgrepo-com.c62a62599e075a78ed2abee222e14121.svg",
     "static/media/HTML5_Badge.svg": "/myportfolio/static/media/HTML5_Badge.5804150e47fbeb132a5d2688f08ce4c8.svg",
-    "main.ba174019.css.map": "/myportfolio/static/css/main.ba174019.css.map",
-    "main.af952736.js.map": "/myportfolio/static/js/main.af952736.js.map"
+    "main.554aace3.css.map": "/myportfolio/static/css/main.554aace3.css.map",
+    "main.a04b6025.js.map": "/myportfolio/static/js/main.a04b6025.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba174019.css",
-    "static/js/main.af952736.js"
+    "static/css/main.554aace3.css",
+    "static/js/main.a04b6025.js"
   ]
 }
