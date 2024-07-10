@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.cdf75acd.css",
-    "main.js": "/myportfolio/static/js/main.6e2326e3.js",
+    "main.css": "/myportfolio/static/css/main.ba174019.css",
+    "main.js": "/myportfolio/static/js/main.6d30f592.js",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
     "static/media/VAVLIARAS-CHARISIOS-CV.pdf": "/myportfolio/static/media/VAVLIARAS-CHARISIOS-CV.fada3d85ae7da926f339.pdf",
@@ -17,15 +17,15 @@
     "static/media/mysql-logo-svgrepo-com.svg": "/myportfolio/static/media/mysql-logo-svgrepo-com.5d83160e4d1d14e9bc2789dc5ad5e18d.svg",
     "static/media/github-svgrepo-com .svg": "/myportfolio/static/media/github-svgrepo-com .0fdd0fd3b3589efa991138745515069a.svg",
     "static/media/night-mode-svgrepo-com.svg": "/myportfolio/static/media/night-mode-svgrepo-com.8c5a859ef69afc3166dc2b73ab0f34d4.svg",
+    "index.html": "/myportfolio/index.html",
     "static/media/sun-svgrepo-com.svg": "/myportfolio/static/media/sun-svgrepo-com.96ea1215f57a771b3e9beaf873a71bf7.svg",
     "static/media/eye-svgrepo-com.svg": "/myportfolio/static/media/eye-svgrepo-com.c62a62599e075a78ed2abee222e14121.svg",
-    "index.html": "/myportfolio/index.html",
     "static/media/HTML5_Badge.svg": "/myportfolio/static/media/HTML5_Badge.5804150e47fbeb132a5d2688f08ce4c8.svg",
-    "main.cdf75acd.css.map": "/myportfolio/static/css/main.cdf75acd.css.map",
-    "main.6e2326e3.js.map": "/myportfolio/static/js/main.6e2326e3.js.map"
+    "main.ba174019.css.map": "/myportfolio/static/css/main.ba174019.css.map",
+    "main.6d30f592.js.map": "/myportfolio/static/js/main.6d30f592.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdf75acd.css",
-    "static/js/main.6e2326e3.js"
+    "static/css/main.ba174019.css",
+    "static/js/main.6d30f592.js"
   ]
 }
