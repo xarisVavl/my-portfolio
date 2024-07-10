@@ -7,14 +7,14 @@
 
 }
 
-.container-wrapper {
+/* .container-wrapper {
   display: flex;
  flex-wrap: wrap;
   gap:50px;
   justify-content: center;
   
 
-}
+} */
 .image {
   position:relative;
   width:100%;
@@ -40,3 +40,4 @@
 .card-text {
   color: var(--bs-secondary-color);
 }
+

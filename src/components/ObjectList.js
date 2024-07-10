@@ -12,13 +12,13 @@ const Object = () => {
       description:"I designed and developed a fault management system for my diploma project using PHP, Bootstrap CSS, and jQuery. The system utilizes AJAX for data fetching from the server and was built and tested using XAMPP.",
       img:ticketinSystemImage,
       linkSite:"",
-      linkCode:""
+      linkCode:"https://github.com/xarisVavl/ticketing_system"
       
     },
     {
       id:2,
       name:"E-shop",
-      description:"A simple e-shop that fetches data from Fake store api.It is build in react and bootstrap css.I isnt a real shop but for me it was a good chance to learn about react props hooks and the philosophy of React.",
+      description:"A simple e-shop that fetches data from Fake store api.It is build in react and bootstrap css. This project  was a good chance for me to learn about  props, hooks and the philosophy of Reactavi programming.",
       img:storeImage,
       linkSite:"https://xarisvavl.github.io/store-react-main/",
       linkCode:"https://github.com/xarisVavl/store-react-main"
@@ -27,7 +27,7 @@ const Object = () => {
     {
       id:3,
       name:"Chess-game",
-      description:"Building a basic chess game using pure JavaScript was an enlightening experience in programming. Although it currently is not  optimized for playing, this project served as an excellent introduction to JavaScript programming.",
+      description:"Building a basic chess game using pure JavaScript was an enlightening experience in programming. Although it currently is not  optimized for playing, this project served as an excellent introduction to JavaScript programming and object oriented programming.",
       img:chessImage,
       linkSite:"https://xarisvavl.github.io/chess_game/",
       linkCode:"https://github.com/xarisVavl/chess_game"
@@ -37,7 +37,17 @@ const Object = () => {
     {
       id:4,
       name:"Old portfolio",
-      description:"This was my first approach of creating a portfolio used pure css and javascript for this.",
+      description:"This was my first approach of creating a portfolio. I used pure css and javascript.",
+      img:oldPortfolioImage,
+      linkSite:"https://xarisvavl.github.io/mypersonalportfolio/",
+      linkCode:"https://github.com/xarisVavl/mypersonalportfolio"
+      
+    }
+    ,
+    {
+      id:4,
+      name:"Old portfolio",
+      description:"This was my first approach of creating a portfolio. I used pure css and javascript.",
       img:oldPortfolioImage,
       linkSite:"https://xarisvavl.github.io/mypersonalportfolio/",
       linkCode:"https://github.com/xarisVavl/mypersonalportfolio"

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin:0px;
   padding:0px;
+  font-family: "Oswald", sans-serif;
 }
 
 nav ul {
@@ -9,12 +10,13 @@ nav ul {
 }
 
 h1 {
-  font-size:8vw;
+  font-size:9vw;
 }
 
 .main-content {
   max-width: 1200px;
   background-color: var(--bs-tertiary-bg);
+
 }
 .contact div{
   max-width:550px;
@@ -59,7 +61,7 @@ justify-content: center;
 
 .list-group li a {
   text-decoration: none;
-  color:var(	--bs-body-color);
+  /* color:var(	--bs-body-color); */
 }
 
 .animate {
@@ -75,3 +77,6 @@ justify-content: center;
   }
 }
 
+.footer{
+  color: var(--bs-tertiary-color);
+}
