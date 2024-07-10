@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.ba174019.css",
-    "main.js": "/myportfolio/static/js/main.de109fa0.js",
+    "main.js": "/myportfolio/static/js/main.af952736.js",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
     "static/media/VAVLIARAS-CHARISIOS-CV.pdf": "/myportfolio/static/media/VAVLIARAS-CHARISIOS-CV.fada3d85ae7da926f339.pdf",
@@ -22,10 +22,10 @@
     "static/media/eye-svgrepo-com.svg": "/myportfolio/static/media/eye-svgrepo-com.c62a62599e075a78ed2abee222e14121.svg",
     "static/media/HTML5_Badge.svg": "/myportfolio/static/media/HTML5_Badge.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "main.ba174019.css.map": "/myportfolio/static/css/main.ba174019.css.map",
-    "main.de109fa0.js.map": "/myportfolio/static/js/main.de109fa0.js.map"
+    "main.af952736.js.map": "/myportfolio/static/js/main.af952736.js.map"
   },
   "entrypoints": [
     "static/css/main.ba174019.css",
-    "static/js/main.de109fa0.js"
+    "static/js/main.af952736.js"
   ]
 }
