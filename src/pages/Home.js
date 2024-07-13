@@ -15,7 +15,7 @@ const Home = () => {
 
   <div className="about-me  mb-5 ">
   <h1  className="header ">About me.</h1>
-    <p className="fs-5">I'm a web developer from Kozani, Greece, with a passion for creating beautiful, functional websites. My background in Electrical and Computer Engineering gives me a solid technical foundation and a knack for problem-solving i also love learning about new technologies and improving my skills day by day.</p>
+    <p className="fs-5">I'm a web developer  with a passion for creating beautiful, functional websites. With a background in Electrical and Computer Engineering, i have a strong technical foundation and a talent for problem-solving. Ι also love learning about new technologies and improving my skills day by day.</p>
 
   </div> 
 

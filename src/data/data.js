@@ -7,7 +7,7 @@ import bootStrapIcon from "./Bootstrap_logo.svg.png";
 import mySqlIcon from "./mysql-logo-svgrepo-com.svg";
 import gitHubIcon from "./github-svgrepo-com .svg";
 import jQueryIcon from "./jquery-svgrepo-com.svg";
-import cvLink from "./VAVLIARAS-CHARISIOS-CV.pdf";
+import cvLink from "./charis_vav_cv.pdf";
 
 
 export {
