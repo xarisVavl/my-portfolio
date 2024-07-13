@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.431d41f6.css",
-    "main.js": "/myportfolio/static/js/main.e42926fc.js",
+    "main.js": "/myportfolio/static/js/main.17cd2206.js",
+    "static/media/charis_vav_cv.pdf": "/myportfolio/static/media/charis_vav_cv.c89ceccda74e3b48341b.pdf",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
-    "static/media/VAVLIARAS-CHARISIOS-CV.pdf": "/myportfolio/static/media/VAVLIARAS-CHARISIOS-CV.fada3d85ae7da926f339.pdf",
     "static/media/new-portfolio.png": "/myportfolio/static/media/new-portfolio.00980089baecf530222e.png",
     "static/media/ticketing-system.png": "/myportfolio/static/media/ticketing-system.1ba55e45138c5ebdfdc4.png",
     "static/media/chess-game.jpg": "/myportfolio/static/media/chess-game.829e9d4572518a28ec08.jpg",
@@ -22,10 +22,10 @@
     "static/media/eye-svgrepo-com.svg": "/myportfolio/static/media/eye-svgrepo-com.c62a62599e075a78ed2abee222e14121.svg",
     "static/media/HTML5_Badge.svg": "/myportfolio/static/media/HTML5_Badge.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "main.431d41f6.css.map": "/myportfolio/static/css/main.431d41f6.css.map",
-    "main.e42926fc.js.map": "/myportfolio/static/js/main.e42926fc.js.map"
+    "main.17cd2206.js.map": "/myportfolio/static/js/main.17cd2206.js.map"
   },
   "entrypoints": [
     "static/css/main.431d41f6.css",
-    "static/js/main.e42926fc.js"
+    "static/js/main.17cd2206.js"
   ]
 }
