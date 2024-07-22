@@ -44,7 +44,7 @@ function Home () {
 
     mm.add("(max-width: 768px)", () => {
    
-
+      gsap.registerPlugin(ScrollTrigger) 
       gsap.from(".grid-img", {
            scrollTrigger: {
             trigger:".images-container",
@@ -62,7 +62,7 @@ function Home () {
               amount:1,
             }
     });
-    gsap.registerPlugin(ScrollTrigger) 
+  
     gsap.from(".resume-link,.skills", {
       scrollTrigger: {
                 trigger:".images-container",
