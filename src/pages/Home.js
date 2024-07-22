@@ -42,40 +42,7 @@ function Home () {
       })
     });
 
-    mm.add("(max-width: 768px)", () => {
-   
-      gsap.registerPlugin(ScrollTrigger) 
-      gsap.from(".grid-img", {
-           scrollTrigger: {
-            trigger:".images-container",
-             start: 'bottom bottom',
-             markers: true
-           },
-           
-          
-         
-            scale:0,
-            ease: "power1.inOut",
-            stagger: {
-              grid: [3,3],
-              from: "end",
-              amount:1,
-            }
-    });
   
-    gsap.from(".resume-link,.skills", {
-      scrollTrigger: {
-                trigger:".images-container",
-             
-            
-               },
-      
-      scaleY:0,
-    
-     })
-
-    });
-
 
 
   
