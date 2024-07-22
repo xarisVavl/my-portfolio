@@ -45,7 +45,7 @@ function Home () {
       gsap.from(".grid-img", {
            scrollTrigger: {
             trigger:".grid-img",
-             start: 'top 70%',
+             start: 'top 60%',
              markers: true
            },
            
@@ -70,25 +70,7 @@ function Home () {
       scaleY:0,
     
      })
-    //   // Animations for mobile
-      
-    //   gsap.from (".grid-img",{
-    //     scale:0,
-    //     ease: "power1.inOut",
-    //     stagger: {
-    //       grid: [3,3],
-    //       from: "end",
-    //       amount:1,
-    //     }
-    //   })
-    //   .from(".flex-container1", {
-    //     xPercent: -200,
-   
-    //   })
-    //   .from(".header, .about-me-par", {
-    //    opacity:0,
-    //    scale:0,
-    //   })
+
     });
 
 
