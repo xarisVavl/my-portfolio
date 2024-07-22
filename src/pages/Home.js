@@ -20,6 +20,9 @@ function Home () {
   
     mm.add("(min-width: 768px)", () => {
       // Animations for desktop
+      tl.from (".resume-link,.skills", {
+        scale:0
+      })
       tl.from (".grid-img",{
         scale:0,
         ease: "power1.inOut",
@@ -44,8 +47,8 @@ function Home () {
 
       gsap.from(".grid-img", {
            scrollTrigger: {
-            trigger:".grid-img",
-             start: 'top bottom',
+            trigger:".images-container",
+             start: 'bottom bottom',
              markers: true
            },
            
@@ -62,7 +65,7 @@ function Home () {
     gsap.registerPlugin(ScrollTrigger) 
     gsap.from(".resume-link,.skills", {
       scrollTrigger: {
-                trigger:".grid-img",
+                trigger:".images-container",
              
             
                },
