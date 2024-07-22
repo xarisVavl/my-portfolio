@@ -45,7 +45,7 @@ function Home () {
       gsap.from(".grid-img", {
            scrollTrigger: {
             trigger:".grid-img",
-             start: 'top 60%',
+             start: 'top bottom',
              markers: true
            },
            
