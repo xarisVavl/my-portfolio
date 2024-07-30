@@ -63,7 +63,7 @@ const handleChange = (e)  => {
 <h1 className="pb-4">Get in touch</h1>
   
   <div className="mb-3">
-    <label  class="form-label"> Type ame</label>
+    <label  class="form-label">Name</label>
     <input type="text" className="form-control"  placeholder="Subject" name="name" value={formValues.name} onChange={handleChange}/>
   </div>
   <div className="mb-3">
