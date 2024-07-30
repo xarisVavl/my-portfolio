@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Portfolio from './pages/Portfolio';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
+import Preloader from './components/Preloader';
+import Footer from './components/Footer';
 
 
 
@@ -15,6 +17,7 @@ function App() {
      <Router>
      
       <div className="App"  >
+        <Preloader/>
         <Navbar/>
      
         <Routes>
@@ -27,7 +30,7 @@ function App() {
 
 
 
-   
+
     </Router>
    
   );

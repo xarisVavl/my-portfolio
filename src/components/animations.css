@@ -1,0 +1,54 @@
+#wrapper-animation {
+  animation : clipPath 0.5s 2.5s linear forwards;
+}
+
+
+@keyframes clipPath{
+
+  0% {transform: translateX(0); }
+  
+  5% {clip-path: polygon(0% 0%, 100% 0%, 89% 100%, 0% 100%);}
+
+  100%  {transform: translateX(-100%); clip-path: polygon(0% 0%, 100% 0%, 89% 100%, 0% 100%);} 
+}
+
+
+#progress-animation {
+  animation : moveBar 0.5s 2s linear forwards;
+  width:80px;
+}
+
+@keyframes moveBar {
+  0% {transform: translateY(0); }
+
+  100% {transform: translateY(-500px) scale(0); opacity: 0; }
+}
+
+
+.full-height-width{
+  width:100vw;
+  height: 100vh;
+
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  left:0;
+  z-index: 100;
+}
+
+
+#svg {
+  animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

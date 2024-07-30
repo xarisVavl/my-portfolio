@@ -6,6 +6,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Contact from "../components/contact/Contact";
 
 
 function Home () {
@@ -13,47 +14,47 @@ function Home () {
 
 
 
-  useGSAP(() => {
-    const tl = gsap.timeline();
+  // useGSAP(() => {
+  //   const tl = gsap.timeline();
   
-    const mm = gsap.matchMedia();
+  //   const mm = gsap.matchMedia();
   
-    mm.add("(min-width: 768px)", () => {
-      // Animations for desktop
-      tl.from (".resume-link,.skills", {
-        scale:0
-      })
-      tl.from (".grid-img",{
-        scale:0,
-        ease: "power1.inOut",
-        stagger: {
-          grid: [3,3],
-          from: "end",
-          amount:1,
-        }
-      })
-      .from(".flex-container1", {
-        xPercent: -200,
+  //   mm.add("(min-width: 768px)", () => {
+  //     // Animations for desktop
+  //     tl.from (".resume-link,.skills", {
+  //       scale:0
+  //     })
+  //     tl.from (".grid-img",{
+  //       scale:0,
+  //       ease: "power1.inOut",
+  //       stagger: {
+  //         grid: [3,3],
+  //         from: "end",
+  //         amount:1,
+  //       }
+  //     })
+  //     .from(".flex-container1", {
+  //       xPercent: -200,
    
-      })
-      .from(".header, .about-me-par", {
-       opacity:0,
-       scale:0,
-      })
-    });
+  //     })
+  //     .from(".header, .about-me-par", {
+  //      opacity:0,
+  //      scale:0,
+  //     })
+  //   });
 
   
 
 
   
-  }, { scope: comp });
+  // }, { scope: comp });
   
 
   return ( 
-
+<div>
 <div  ref ={comp}className="wrapper d-flex  align-items-center flex-column m-4" >
 
-<div  className="main-content d-flex flex-column p-5  position-relative ">
+<div  className="main-content d-flex flex-column p-5  position-relative mb-5">
 
   <div  className="about-me  mb-5 ">
   <h1  className="header ">About me.</h1>
@@ -78,8 +79,8 @@ function Home () {
 
 <div className="flex-grow-1 flex-container2">
   <div className="skills d-flex  align-items-center mb-5 mt-5 gap-4 ">
-    <div id="skills"className="expertise  p-1 rounded">
-      <div   className=" skills fs-3">Skills</div>
+    <div id="skills"className="expertise  p-1 rounded fs-3">
+      Skills
   
     </div>
     <a href={cvLink} target="_blank" className="resume-link fs-5">Open resume</a>
@@ -103,8 +104,16 @@ function Home () {
 
   
 </div>
+
+
+</div>
+<Contact/>
 <Footer/>
 </div>
+
+
+
+
 
    );
 }

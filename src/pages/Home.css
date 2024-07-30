@@ -84,6 +84,7 @@ justify-content: center;
 
 .footer{
   color: var(--bs-tertiary-color);
+
 }
 
 @media (max-width: 700px) {

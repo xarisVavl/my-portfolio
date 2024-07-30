@@ -36,7 +36,7 @@ else {
     
    
 <nav className="d-flex align-items-center justify-content-evenly border-bottom p-2 m-2">
-  <div className="name fs-3">Charis Vavliaras</div>
+  <div className="name fs-3">Charis <span className="text-danger">Vavliaras</span></div>
 <ul className="nav nav-underline nav-fill align-items-center">
 
   <li className="nav-item">
