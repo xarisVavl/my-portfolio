@@ -58,8 +58,7 @@ function Home () {
 
   <div  className="about-me  mb-5 ">
   <h1  className="header ">About me.</h1>
-    <p className=" about-me-par fs-5">I'm a web developer  with a solid foundation in PHP, JavaScript,
-    HTML, and CSS. With a background in Electrical and Computer Engineering, I have a strong technical foundation and am enthusiastic about expanding my programming skills. I am always eager to take on new challenges and opportunities for growth.</p>
+    <p className=" about-me-par fs-5">I'm a web developer with a solid foundation in PHP, JavaScript, HTML, and CSS. I am enthusiastic about expanding my programming skills and am always eager to take on new challenges and opportunities for growth.</p>
 
   </div> 
 
@@ -67,7 +66,7 @@ function Home () {
     <div className=" flex-container1 flex-grow-1 mt-5 mb-5">
       <h6>Contact </h6>
       <p className="social-paragraph">You can find me on <a href="https://linkedin.com/in/charis-vavliaras-7baa56315" target="_blank" >Linkedin</a> or by 
-      <a href="mailto:xarisvavliaras@icloud.com" target="_blank"> email</a> </p>
+      <a href="mailto:xarisvavliaras@icloud.com" target="_blank"> email.</a> </p>
      
       <h6>Social links</h6>
       
