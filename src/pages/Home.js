@@ -1,6 +1,6 @@
 
 import Footer from "../components/Footer";
-import {reactIcon,jsIcon,cssIcon,htmlIcon,phpIcon,bootStrapIcon,mySqlIcon,gitHubIcon,jQueryIcon,cvLink} 
+import {reactIcon,jsIcon,cssIcon,htmlIcon,phpIcon,bootStrapIcon,mySqlIcon,gitHubIcon,jQueryIcon,cvLink,tailwindImage} 
 from "../data/data";
 import { useRef } from "react";
 import gsap from "gsap";
@@ -58,7 +58,8 @@ function Home () {
 
   <div  className="about-me  mb-5 ">
   <h1  className="header ">About me.</h1>
-    <p className=" about-me-par fs-5">I'm a web developer  with a passion for creating beautiful, functional websites. With a background in Electrical and Computer Engineering, i have a strong technical foundation and a talent for problem-solving. Ι also love learning about new technologies and improving my skills day by day.</p>
+    <p className=" about-me-par fs-5">I'm a web developer  with a solid foundation in PHP, JavaScript,
+    HTML, and CSS. With a background in Electrical and Computer Engineering, I have a strong technical foundation and am enthusiastic about expanding my programming skills. I am always eager to take on new challenges and opportunities for growth.</p>
 
   </div> 
 
@@ -87,15 +88,21 @@ function Home () {
   </div>
 
   <div className="images-container  container  mb-5 ">
-    <img className="grid-img" src={htmlIcon} alt="" />
-    <img className="grid-img" src={jsIcon} alt="" />
-    <img className="grid-img" src={cssIcon} alt="" />
-    <img className="grid-img" src={phpIcon} alt="" />
-    <img className="grid-img" src={bootStrapIcon} alt="" />
-    <img className="grid-img" src={mySqlIcon} alt="" />
-    <img className="grid-img" src={gitHubIcon} alt="" />
-    <img className="grid-img" src={reactIcon} alt="" />
-    <img  className="grid-img" src={jQueryIcon} alt="" />
+  
+    <img className="grid-img" src={jsIcon} alt="icon" />
+    <img className="grid-img" src={reactIcon} alt="icon" />
+    <img  className="grid-img" src={jQueryIcon} alt="icon" />
+    <img className="grid-img" src={phpIcon} alt="icon" />
+    <img className="grid-img" src={mySqlIcon} alt="icon" />
+    <img className="grid-img" src={bootStrapIcon} alt="icon" />
+    <img  className="grid-img" src={tailwindImage} alt="image" />
+    <img className="grid-img" src={gitHubIcon} alt="icon" />
+    <img className="grid-img" src={htmlIcon} alt="icon" />
+    <img className="grid-img" src={cssIcon} alt="icon" />
+    
+   
+    
+    
   </div>
 
 

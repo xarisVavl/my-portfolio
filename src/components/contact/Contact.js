@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./Contact.css"
 import { BounceLoader, PulseLoader } from "react-spinners";
-import arrow from "../../data/arrow.svg"
+import { arrowIcon } from "../../data/data";
 
 const Contact = () => {
 const [isLoading, setIsLoading] = useState(false);
@@ -63,7 +63,7 @@ const handleChange = (e)  => {
 <h1 className="pb-4">Get in touch</h1>
   
   <div className="mb-3">
-    <label  class="form-label">Name</label>
+    <label  class="form-label">Subject</label>
     <input type="text" className="form-control"  placeholder="Subject" name="name" value={formValues.name} onChange={handleChange}/>
   </div>
   <div className="mb-3">
@@ -76,7 +76,7 @@ const handleChange = (e)  => {
   <label  class="form-label">Message</label>
   <textarea className="form-control"  rows="3" placeholder="Message" name="message"  value={formValues.message} onChange={handleChange}></textarea>
 </div>
- <button type="submit" className="btn btn-primary ">Send your message  {!isLoading && <img  src={arrow} />}  {isLoading &&  <PulseLoader size={4} color="#ffffff"/> }  </button>
+ <button type="submit" className="btn btn-primary ">Send your message  {!isLoading && <img  src={arrowIcon} />}  {isLoading &&  <PulseLoader size={4} color="#ffffff"/> }  </button>
 {emptyForm && <div className="bg-danger-subtle border text-danger border-danger rounded mt-3 p-2">It's seems that you forgot something. Please check your entries!</div>  }
 
 {success && <div className="bg-success-subtle border text-success border-success rounded mt-3 p-2">Your message was sent succesfully.</div> }

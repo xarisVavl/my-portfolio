@@ -1,9 +1,9 @@
-import ticketinSystemImage from "../data/ticketing-system.png"
-import storeImage from "../data/store.png"
-import chessImage from "../data/chess-game.jpg"
-import oldPortfolioImage from "../data/old-portfolio.png"
-import newPortfolioImage from "../data/new-portfolio.png"
-import eyeImage from "../data/eye-svgrepo-com.svg"
+import { ticketinSystemImage,chessImage,oldPortfolioImage,storeImage,eyeIcon } from "../data/data"
+
+
+
+
+
 const Object = () => {
   const ObjectList = [
     {
@@ -62,7 +62,7 @@ const Object = () => {
      <div className="card " key={object.id}>
      <div className="image overflow-hidden bg-white rounded-top">
        <img src={object.img} className="card-img-top object-fit-contain" alt=""/> 
-       <h4 className="image-effect d-flex align-items-center justify-content-center flex-column "><img className="eye"src ={eyeImage} alt =""></img></h4>
+       <h4 className="image-effect d-flex align-items-center justify-content-center flex-column "><img className="eye"src ={eyeIcon} alt =""></img></h4>
      </div>
         
      <div className="card-body d-flex flex-column ">

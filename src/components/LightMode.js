@@ -1,9 +1,9 @@
-import lightModeIcon from "../data/sun-svgrepo-com.svg"
+import { sunIcon } from "../data/data";
 
 const LightMode = () => {
   return ( 
   <>
-    <img src={lightModeIcon} className="animate"alt="" ></img>
+    <img src={sunIcon} className="animate"alt="" ></img>
   
   </> );
 }

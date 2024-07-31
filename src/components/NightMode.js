@@ -1,9 +1,9 @@
-import nightModeIcon from "../data/night-mode-svgrepo-com.svg"
+import { nightIcon } from "../data/data";
 
 const NightMode = () => {
   return ( <>
   
-  <img src={nightModeIcon} className="animate"alt="" ></img>
+  <img src={nightIcon} className="animate"alt="" ></img>
   
   </> );
 }

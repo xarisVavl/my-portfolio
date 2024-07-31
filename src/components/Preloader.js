@@ -1,6 +1,6 @@
 import "./animations.css"
 import { ReactSVG } from "react-svg";
-import loading from "../data/loading.svg"
+import { loadingIcon } from "../data/data";
 const Preloader = () => {
 
 
@@ -10,7 +10,7 @@ const Preloader = () => {
 
     <div id="wrapper-animation" className="full-height-width  bg-danger">
 
- <div id="progress-animation" > <ReactSVG id="svg" src={loading} />   </div>
+ <div id="progress-animation" > <ReactSVG id="svg" src={loadingIcon} />   </div>
      </div>
    );
 }
