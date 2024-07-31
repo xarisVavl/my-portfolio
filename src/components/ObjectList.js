@@ -61,8 +61,8 @@ const Object = () => {
     {ObjectList.map((object)=> (  
      <div className="card " key={object.id}>
      <div className="image overflow-hidden bg-white rounded-top">
-       <img src={object.img} className="card-img-top object-fit-contain" alt=""/> 
-       <h4 className="image-effect d-flex align-items-center justify-content-center flex-column "><img className="eye"src ={eyeIcon} alt =""></img></h4>
+       <img src={object.img} className="card-img-top object-fit-contain" alt="image"/> 
+       <h4 className="image-effect d-flex align-items-center justify-content-center flex-column "><img className="eye"src ={eyeIcon} alt ="image"></img></h4>
      </div>
         
      <div className="card-body d-flex flex-column ">

@@ -62,7 +62,7 @@ function Home () {
   <div className="contact  d-flex flex-fill flex-wrap justify-content-start ">
     <div className=" flex-container1 flex-grow-1 mt-5 mb-5">
       <h6>Contact </h6>
-      <p className="social-paragraph">You can find me on <a href="https://linkedin.com/in/charis-vavliaras-7baa56315" target="_blank" >Linkedin</a> or by 
+      <p className="social-paragraph">You can find me on <a href="https://linkedin.com/in/charis-vavliaras-7baa56315" target="_blank" rel="noreferrer" >Linkedin</a> or by 
       <a href="mailto:xarisvavliaras@icloud.com" target="_blank"> email.</a> </p>
      
       <h6>Social links</h6>
