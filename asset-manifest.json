@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.9198610c.css",
-    "main.js": "/myportfolio/static/js/main.d228fbaa.js",
+    "main.js": "/myportfolio/static/js/main.ecae2f67.js",
     "static/media/charisvav.pdf": "/myportfolio/static/media/charisvav.ae907bb9f3ccbbc1891a.pdf",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
-    "static/media/new-portfolio.png": "/myportfolio/static/media/new-portfolio.00980089baecf530222e.png",
     "static/media/ticketing-system.png": "/myportfolio/static/media/ticketing-system.1ba55e45138c5ebdfdc4.png",
     "static/media/chess-game.jpg": "/myportfolio/static/media/chess-game.829e9d4572518a28ec08.jpg",
     "static/media/PHP-logo.svg.png": "/myportfolio/static/media/PHP-logo.svg.ac9a682a847ab7f2cff6.png",
@@ -13,21 +12,22 @@
     "static/media/Bootstrap_logo.svg.png": "/myportfolio/static/media/Bootstrap_logo.svg.1e724d60d7ed3cc0bd52.png",
     "static/media/JavaScript-logo.png": "/myportfolio/static/media/JavaScript-logo.e4a6603a50d997ebe438.png",
     "static/media/CSS3_logo.svg.png": "/myportfolio/static/media/CSS3_logo.svg.2a7daffa85bb2869d26d.png",
+    "static/media/Tailwind_CSS_Logo.svg.png": "/myportfolio/static/media/Tailwind_CSS_Logo.svg.f73cfab53adfe1595928.png",
     "static/media/jquery-svgrepo-com.svg": "/myportfolio/static/media/jquery-svgrepo-com.ab812caf9c78eb016e5dfad7a80f2e32.svg",
     "static/media/mysql-logo-svgrepo-com.svg": "/myportfolio/static/media/mysql-logo-svgrepo-com.5d83160e4d1d14e9bc2789dc5ad5e18d.svg",
-    "static/media/github-svgrepo-com .svg": "/myportfolio/static/media/github-svgrepo-com .0fdd0fd3b3589efa991138745515069a.svg",
     "static/media/night-mode-svgrepo-com.svg": "/myportfolio/static/media/night-mode-svgrepo-com.8c5a859ef69afc3166dc2b73ab0f34d4.svg",
     "index.html": "/myportfolio/index.html",
     "static/media/sun-svgrepo-com.svg": "/myportfolio/static/media/sun-svgrepo-com.96ea1215f57a771b3e9beaf873a71bf7.svg",
     "static/media/eye-svgrepo-com.svg": "/myportfolio/static/media/eye-svgrepo-com.c62a62599e075a78ed2abee222e14121.svg",
+    "static/media/Git_icon.svg": "/myportfolio/static/media/Git_icon.29ee81f3816dc8c467d2fe7c26ba1f4c.svg",
     "static/media/HTML5_Badge.svg": "/myportfolio/static/media/HTML5_Badge.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "static/media/loading.svg": "/myportfolio/static/media/loading.c86bb3cc047a9c091160a13968dd1319.svg",
     "static/media/arrow.svg": "/myportfolio/static/media/arrow.29c75695e6fb08c80825148aa314e198.svg",
     "main.9198610c.css.map": "/myportfolio/static/css/main.9198610c.css.map",
-    "main.d228fbaa.js.map": "/myportfolio/static/js/main.d228fbaa.js.map"
+    "main.ecae2f67.js.map": "/myportfolio/static/js/main.ecae2f67.js.map"
   },
   "entrypoints": [
     "static/css/main.9198610c.css",
-    "static/js/main.d228fbaa.js"
+    "static/js/main.ecae2f67.js"
   ]
 }
