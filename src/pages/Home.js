@@ -3,9 +3,6 @@ import Footer from "../components/Footer";
 import {reactIcon,jsIcon,cssIcon,htmlIcon,phpIcon,bootStrapIcon,mySqlIcon,gitHubIcon,jQueryIcon,cvLink,tailwindImage} 
 from "../data/data";
 import { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Contact from "../components/contact/Contact";
 
 

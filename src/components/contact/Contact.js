@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./Contact.css"
-import { BounceLoader, PulseLoader } from "react-spinners";
+import {  PulseLoader } from "react-spinners";
 import { arrowIcon } from "../../data/data";
 
 const Contact = () => {
