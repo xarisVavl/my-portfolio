@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.9198610c.css",
-    "main.js": "/myportfolio/static/js/main.b21d946b.js",
+    "main.js": "/myportfolio/static/js/main.26a9c3d4.js",
     "static/media/charisvav.pdf": "/myportfolio/static/media/charisvav.ae907bb9f3ccbbc1891a.pdf",
     "static/media/store.png": "/myportfolio/static/media/store.a0b62c3be35d56621f88.png",
+    "static/media/nikeapp.png": "/myportfolio/static/media/nikeapp.c580b5f0b1fd349420a5.png",
     "static/media/old-portfolio.png": "/myportfolio/static/media/old-portfolio.14e425e0a42ff386c5d0.png",
     "static/media/ticketing-system.png": "/myportfolio/static/media/ticketing-system.1ba55e45138c5ebdfdc4.png",
     "static/media/chess-game.jpg": "/myportfolio/static/media/chess-game.829e9d4572518a28ec08.jpg",
@@ -24,10 +25,10 @@
     "static/media/loading.svg": "/myportfolio/static/media/loading.c86bb3cc047a9c091160a13968dd1319.svg",
     "static/media/arrow.svg": "/myportfolio/static/media/arrow.29c75695e6fb08c80825148aa314e198.svg",
     "main.9198610c.css.map": "/myportfolio/static/css/main.9198610c.css.map",
-    "main.b21d946b.js.map": "/myportfolio/static/js/main.b21d946b.js.map"
+    "main.26a9c3d4.js.map": "/myportfolio/static/js/main.26a9c3d4.js.map"
   },
   "entrypoints": [
     "static/css/main.9198610c.css",
-    "static/js/main.b21d946b.js"
+    "static/js/main.26a9c3d4.js"
   ]
 }
